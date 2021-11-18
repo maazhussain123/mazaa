@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<style type="text/css">
+		body{
+			padding: 0px;
+			margin: 0px;
+		}
+		.main-wrapper{
+			width: 100%;
+			min-height: 1000px;
+			background-color: #fff;
+		}
+		.header{
+			width: 1116px;
+			height: 100px;
+			margin: 0 auto;
+		}	
+		.logo{
+			width: 286px;
+			height: 100px;
+			background-color: #fff;
+			float: left;
+
+		}
+		.logo img{
+			border-radius: 60%;
+			position: relative;
+			top: 10px; 
+			left: 0px;
+			width: 150px;
+			height: 120px;
+		}
+		.navigations{
+			width: 830px;
+			height: 100px;
+			float: right;
+			background-color: #fff;
+		}
+		.navigations ul{
+			list-style: none;
+		}
+		.navigations ul li{
+			float: left;
+		}
+		.navigations ul li a{
+			display: block;
+			text-decoration: none;
+			padding: 30px 20px;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			color: black;
+		}
+		.navigations ul li a:hover{
+			color: #4fd675;
+			transition: 0.5s;
+		}
+		.btn-sumbit{
+			background-color: #4fd675;
+			text-decoration: none;
+			color: white;
+			border-radius: 25px;
+			padding: 15px 45px;
+			position: relative;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			top: 30px;
+			left: 30px;
+		}
+		.btn-sumbit:hover{
+			background-color: #222222;
+			color: #ffff;
+			transition: 1s;
+		}
+		.banner{
+			width: 100%;
+			height: 750px;
+		}
+		.banner img{
+			width: 100%;
+			height: 750px;
+		}
+		.set{
+			width: 1000px;
+			height: 500px;
+			background-color: ;
+			position: relative;
+			bottom: 670px;
+			margin: 0 auto;
+			padding-top: 100px;
+		}
+		.set h3{
+			color: white;
+			font-family: rokkit sans-serif;
+			font-size: 30px;
+			letter-spacing: 3px;
+			text-align: center;
+		}
+		.set p{
+			border-bottom: 2px solid white;
+			width: 100px;
+			margin: 0 auto;
+		}
+		.set h2{
+			border-bottom: 2px solid white;
+			width: 130px;
+			margin: 0 auto;
+			padding-top: 10px;
+		}
+		.set h1{
+			color: white;
+			font-family: rokkit sans-serif;
+			font-size: 95px;
+			letter-spacing: 5px;
+			text-align: center;
+			line-height: 50px;
+		}
+		.set h4{
+			text-align: center;
+			color: white;
+			font-family: rokkit sans-serif;
+			font-size: 22px;
+			letter-spacing: 3px;
+			text-align: center;
+			line-height: 35px;	
+		}
+		.mazaa-club{
+			width: 1000px;
+			height: 700px;
+			margin: 0 auto;
+			margin-top: 80px;
+		}
+		.club-left{
+			width: 400px;
+			height: 600px;
+			background-color: white;
+			float: left;
+		}
+		.club-left h5{
+			color: #4fd675;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 20px;
+		}
+		.club-left h1{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 40px;
+			line-height: 40px;	
+		}
+		.club-left p{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 17px;
+			color: #8f9397;
+			line-height: 20px;	
+		}
+		.club-left h4{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 20px;
+			font-weight: bold;
+			padding-top: 12px;	
+		}
+		.club-left i{
+			width: ;
+			color: #4fd675;
+			float: left;
+			font-size: 22px;
+			padding-right: 40px;
+			
+		}
+		.club-left p{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 18px;
+			color: #8f9397;
+		}
+		.club-center{
+			width: 300px;
+			height: 600px;
+			background-color: ;
+			float: left;
+			transform: rotate(0deg);
+			transition: transform 2s;
+		}
+		.club-center:hover{
+			transform : rotate(15deg);
+		}
+		.club-right{
+			width: 300px;
+			height: 600px;
+			background-color: ;
+			float: right;
+		}
+		.club-right img{
+			margin-top: 5px;
+			transform: rotate(0deg);
+			transition: transform 2s;
+		}
+		.club-right img:hover{
+			transform : rotate(15deg);
+		}
+		.pricing-packages{
+			width: 100%;
+			min-height: 930px;
+			background: #fbf9f9;
+		}
+		.pricing-packages h4{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 22px;
+			color: #4fd675;
+			text-align: center;
+			padding-top: 90px;
+		}
+		.pricing-packages h1{
+			font-family: "Rokkitt",serif;
+			letter-spacing: 2px;
+			font-size: 40px;
+			color: #333333;
+			letter-spacing: 5px;
+			word-spacing: 5px;
+			text-align: center;
+		}
+		.pkgs{
+			width: 1000px;
+			height: 580px;
+			margin: 0 auto;
+			padding-top: 30px;
+		}
+		.left-pkgs{
+			width: 330px;
+			height: 580px;
+			background-color: white;
+			float: left;
+			box-sizing: border-box;
+		}
+		.left-pkgs h2{
+			font-size: 30px;
+			font-family: rokkit sans-serif;
+			color: #aaa;
+			padding-left: 20px;
+			line-height: 0px;
+		}
+		.left-pkgs h5{
+			width: 210px;
+			font-size: 22px;
+			height: 10px;
+			font-family: rokkit sans-serif;
+			padding-left: 20px;
+			color: #333333;
+			float: left;
+		}
+		#dollar{
+			width: 50px;
+			height: 10px;
+			font-family: rokkit sans-serif;
+			padding-left: 20px;
+			color: #4fd675;
+			float: left;
+		}
+		.left-pkgs p{
+			font-size: 1rem;
+			padding: 0px 20px;
+			color: #666; 
+			line-height: 15px;
+		}
+		.left-pkgs h6{
+			border-bottom: 1px dotted #666;
+			margin:  0px 20px; 
+		}
+		.center-pkgs{
+			width: 300px;
+			height: 500px;
+			margin: 35px 20px;
+			float: left;
+			border: 3px solid #4fd675;
+			background-color: white;
+			box-sizing: border-box;
+		}
+		.center-pkgs h2{
+			font-size: 30px;
+			font-family: rokkit sans-serif;
+			color: #aaa;
+			padding-left: 20px;
+		}
+		.center-pkgs h5{
+			font-size: 22px;
+			font-family: rokkit sans-serif;
+			padding-left: 20px;
+			color: #333333;
+			line-height: 1px;
+		}
+		.center-pkgs ul{
+			font-size: 16px;
+			color: #666666;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.center-pkgs h6{
+			border-bottom: 1px dotted #666;
+			margin:  0px 20px;	
+		}
+		#house-made{
+			font-size: 20px;
+			font-family: 'Open Sans', sans-serif;
+			color: #4fd675;
+		}
+		.center-pkgs p{
+			font-size: 16px;
+			font-family: 'Open Sans', sans-serif;
+			color: #666666;
+			padding-left: 20px;
+			line-height: 1px;
+		} 
+		.quote{
+			width: 1000px;
+			height: 250px;
+			margin: 0 auto;
+		}
+		.quote h1{
+			font-family: "Rokkitt",serif;
+   			color: #333;
+   			font-size: 22px;
+   			text-align: center;
+   			margin-top: 70px;
+   			letter-spacing: 2px;
+		}
+		.quote h2{
+			font-family: "Archivo",sans-serif;
+			color: #4fd675;
+			text-align: center;
+			padding: 10px 150px;
+			box-sizing: border-box;
+			font-size: 34px;
+		}
+		.member{
+			width: 100%;
+			position: absolute;
+		}
+		.member img{
+			width: 100%;
+			height: 800px;
+			position: absolute;
+			opacity: 0.8;
+		}
+		.circle{
+			width: 1000px;
+			height: 500px;
+			margin: 0 auto;
+			position: relative;
+			top: 90px;
+		}
+		.circle img{
+			width: 600px;
+			height: 600px;
+			border-radius: 50%;
+			margin-left: 185px; 
+			position: absolute;
+		}
+		.circle-inside{
+			width: 420px;
+			height: 400px;
+			margin: 0 auto;
+			position: relative;
+			top: 180px;
+		}
+		.circle-inside h2{
+			font-size: 44px;
+			font-family: "Rokkitt",serif;
+			letter-spacing: 2px;
+			text-align: center;
+			color: #333333;
+			line-height: 1px;
+		}
+		.circle-inside h5{
+			font-size: 18px;
+			font-family: "Archivo",sans-serif;
+			color: #777777;
+			text-align: center;
+		}
+		.circle-inside input{
+			height: 50px;
+			width: 350px;
+			font-size: 16px;
+			border-radius: 110px;
+			text-align: center;
+			color: #666666;
+			margin-left: 30px;
+			margin-bottom: 20px;
+			border: 0px;
+			text-shadow: none;
+		}
+		.circle-inside button{
+			background-color: #4fd675;
+			text-decoration: none;
+			color: white;
+			border-radius: 35px;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			padding: 18px 150px;
+			margin-left: 29px;
+			border: 0px solid green;
+		}
+		.circle-inside button:hover{
+			background-color: #222222;
+			color: #ffff;
+			transition: 1s;
+		}
+		.circle-inside p{
+			font-size: 16px;
+			font-family: 'Open Sans', sans-serif;
+			text-align: center;
+			color: #555555;
+			padding-top: 10px;
+		}
+		.circle-inside a {
+			color: #333333;
+		}
+		.circle-inside a:hover{
+			color: #4fd675;
+			transition: 0.5s;
+		}
+		.highlights{
+			width: 1000px;
+			margin: 0 auto;
+			margin-top: 350px;
+		}
+		.highlights h2{
+			text-align: center;
+			color: #4fd675;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 20px;
+		}
+		.highlights h3{
+			font-family: "Rokkitt",serif;
+			letter-spacing: 2px;
+			text-align: center;
+			color: #333333;
+			line-height: 1px;
+			font-size: 40px;
+		}
+		.highlights-branches{
+			width: 1000px;
+			min-height: 650px;
+			margin: 0 auto;
+			padding-top: 30px;
+		}
+		.highlights-left{
+			width: 350px;
+			height: 600px;
+			background-color: yellow;
+			float: left;
+		}
+		.ok{
+			width: 300px;
+			height: 287px;
+			float: right;
+			margin: 0px 10px;
+			position: relative;	
+		}
+		.highlights-center{
+			width: 300px;
+			height: 287px;
+			background-color: #4fd675;
+			float: right;
+			margin: 0px 10px;
+		}
+		.highlights-center img{
+			transform: rotateY(0);
+			transition: 0.5s;
+		}
+		.highlights-center img:hover{
+			transform: rotateY(-90deg);
+		}
+		.center-text{
+			transform: rotateY(90deg);
+			position: absolute;
+			margin: 65px 65px;
+			transition: 0.5s ease-in-out 0.3s;
+		}
+		.center-text h3{
+			font-size: 20px;
+			color: #fff;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.center-text p{
+			font-size: 16px;
+			color: #fff;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.ok:hover .center-text{
+			transform: rotateY(0);
+		}
+		.right{
+			margin-top: 25px;
+		}
+		.chef{
+			width: 100%;
+			height: 750px;
+			background-color: #fbf9f9;
+			background-repeat: no-repeat;
+			background-size: 100% 700px;
+			margin-top: 50px;
+			border: 1px solid white;
+			box-sizing: border-box;
+		}
+		.chef h3{
+			text-align: center;
+			font-size: 22px;
+			font-family: "Archivo",sans-serif;
+			color: #4fd675;
+			margin-top: 100px;
+		}
+		.chef h1{
+			font-size: 40px;
+			font-family: "Rokkitt",serif;
+			letter-spacing: 2px;
+			text-align: center;
+			color: #333333;
+		}
+		.chef-box{
+			width: 1000px;
+			height: 240px;
+			margin: 0 auto;
+			margin-top: 70px;
+		}
+		.chef-left{
+			width: 300px;
+			height: 240px;
+			float: left;
+			margin: 0px 16.5px;
+			background-color: #fff;
+			box-shadow: ;
+		}
+		.chef-left-1{
+			width: 180px;
+			height: 240px;
+			float: left;
+		}
+		.chef-left-2{
+			width: 120px;
+			height: 240px;
+			float: left;
+		}
+		.chef-left-2 p{
+			font-size: 16px;
+			color: #aaa;
+			padding-left: 18px;
+			padding-top: 45px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.chef-left-2 h1{
+			font-size: 26px;
+			color: #333333;
+			font-family: "Rokkitt",serif;
+			padding: 0px 10px;
+			line-height: 30px;
+		}
+		.call-wait{
+			width: 1000px;
+			height: 200px;;
+			margin: 0 auto;
+		}
+		.call-wait h4{
+			text-align: center;
+			font-size: 26px;
+			font-family: "Archivo",sans-serif;
+			padding-top: 30px;
+		}
+		.icons{
+			width: 1000px;
+			height: 100px;
+			text-align: center;
+		}
+		.icons i{
+			width: 50px;
+			font-size: 35px;
+			margin: 0px 10px;
+		}
+		.icons i:hover{
+			transition: 0.5s;
+			color: #4fd675; 
+		}
+		.programs{
+			width: 1000px;
+			height: 800px;
+			margin: 0 auto;
+		}
+		.programs h3{
+			text-align: center;
+			font-size: 22px;
+			font-family: "Archivo",sans-serif;
+			color: #4fd675;
+			margin-top: 70px;
+		}
+		.programs h1{
+			font-size: 40px;
+			font-family: "Rokkitt",serif;
+			letter-spacing: 2px;
+			text-align: center;
+			color: #333333;
+		}
+		.program-left{
+			width: 320px;
+			height: 320px;
+			float: left;
+			margin: 30px 6px;
+			position: relative;
+		}
+		.left-side{
+			width: 280px;
+			height: 300px;
+			float: left;
+			position: absolute;
+			top: 250px;
+			left: 20px;
+		}
+		.left-inside{
+			width: 280px;
+			height: 250px;
+			background-color: #fff;
+		}
+		.left-inside h2{
+			color: #4fd675;
+			font-family: "Archivo",sans-serif;
+			font-size: 16px;
+			margin: 0;
+			box-sizing: border-box;
+			padding: 15px 20px;
+		}
+		.left-inside h1{
+			color: #333333;
+			font-size: 28px;
+			font-family: rokkit sans-serif;
+			padding: 0px 20px;
+			box-sizing: border-box;
+		}
+		.left-inside p{
+			color: #666666;
+			font-family: "Archivo",sans-serif;
+			font-size: 15px;
+			box-sizing: border-box;
+			padding: 0px 20px;
+		}
+		.left-outside{
+			width: 280px;
+			height: 50px;
+			background-color: #293e6b;
+		}
+		.left-outside i{
+			float: left; 
+			color: #fff;
+			margin: 20px 15px;
+			font-size: 16px;
+		}
+		.left-outside h5{
+			float: left;
+			font-size: 16px;
+			color: #fff;
+			line-height: 1px;
+			margin-right: 50px;
+		}
+		.left-outside h4{
+			float: left;
+			font-size: 16px;
+			color: #fff;
+			line-height: 14px;
+		}
+		.offer-new{
+			width: 1000px;
+			height: 450px;
+			margin: 0 auto;
+			padding-top: 50px;
+		}
+		.offer-new h2{
+			font-size: 40px;
+			font-family: rokkit sans-serif;
+			color: #333333;
+			box-sizing: border-box;
+			padding: 0px 240px;
+			text-align: center;
+			word-spacing: 5px;
+			line-height: 55px;
+		}
+		.offer-new p{
+			font-size: 22px;
+			color: #666666;
+			font-family: "Archivo",sans-serif;
+			box-sizing: border-box;
+			padding: 0px 220px;
+			text-align: center;
+		}
+		.offer-new input{
+			height: 62px;
+			width: 600px;
+			font-size: 16px;
+			border-radius: 110px;
+			text-align: center;
+			color: #666666;
+			border: 2px solid #d1ddcd;
+			margin-left: 220px;
+			margin-top: 20px;
+			text-shadow: none;
+		}
+		.footer-bg{
+			width: 100%;
+			height: 500px;
+			background: #293e6b;
+		}
+		.fotter{
+			width: 1000px;
+			height: 400px;
+			margin: 0 auto;
+			padding-top: 50px;
+		}
+		.left-f{
+			width: 300px;
+			height: 300px;
+			float: left;
+			margin: 0px 8px
+		}
+		.left-f h2{
+			color: #fff;
+			font-size: 32px;
+			font-family: rokkit sans-serif;
+			text-align: center;
+		}
+		.left-f p{
+			color: #aaa;
+			font-size: 18px;
+			font-family: "Archivo",sans-serif;
+			text-align: center;
+			line-height: 28px;
+		}
+		.left-f i{
+			color: #fff;
+			font-size: 16px;
+			margin-left: 48px;
+			margin-top: 5px;
+			float: left;
+		}
+		.left-f i:hover{
+			transition: 0.5s;
+			color: #4fd675;
+		}
+		.left-f li{
+			margin: 5px 80px;
+			font-size: 18px;
+			color: #fff;
+			line-height: 23px;
+		}
+		.left-f li:hover{
+			transition: 0.5s;
+			color: #4fd675;
+		}
+		.left-f span{
+			color: #fff;
+		}
+		.left-f h6{
+			margin: 0px 70px;
+			font-size: 18px;
+			color: #fff;
+			text-align: center;
+		}
+		.left-c{
+			width: 350px;
+		}
+		.vertical-nav{
+			width: 1000px;
+			height: 400px;
+		}
+		.vertical-nav ul{
+			list-style: none;
+			margin-left: 280px;
+		}
+		.vertical-nav ul li{
+			float: left;
+		}
+		.vertical-nav ul li a{
+			display: block;
+			text-decoration: none;
+			padding: 30px 20px;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			color: #fff;
+		}
+		.vertical-nav ul li a:hover{
+			color: #4fd675;
+			transition: 0.5s;
+		}
+		.vertical-nav h2{
+			float: left;
+			margin-left: 300px;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			color: #aaaaaa;
+			line-height: 1px;
+			padding: 0;
+			word-spacing: 5px;
+		}
+		.vertical-nav span{
+			color: #fff;
+		}
+</style>
+</head>
+<body>
+	<div class="main-wrapper">
+		<div class="header">
+			<div class="logo">
+				<img src="images/logo.jpg">
+			</div>
+			<div class="navigations">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Pages</a></li>
+					<li><a href="">Recipe</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">Dashboard</a></li>
+				</ul>
+				<a href="" class="btn-sumbit">Sumbit Recipe</a>
+
+			</div>
+		</div>
+		<div class="banner">
+			<img src="images/food-banner.png">
+			<div class="set">
+			<h3>Enjoy Your Food Restaurant</h3>
+			<p></p>
+			<h2></h2>
+			<h1>Fresh & Tasty</h1>
+			<h4>Explore recipes with natural cheese for delicious meals,<br> appetizers, desserts, and snacks.</h4>
+			</div>
+		</div>
+		<div class="mazaa-club">
+			<div class="club-left">
+				<h5>Start Restaurant in 1985.</h5>
+				<h1>Welcome to the Mazaa Club.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipi adipi ing elit. Ea ratione optio nulla illum, eusd maioresulla illum,</p>
+				<h4>Available Facilities</h4>
+				<i class="fas fa-toilet-paper"></i><p>Disabled Toilets</p>
+				<i class="fas fa-car"></i><p> Free Parking</p>
+				<i class="fas fa-concierge-bell"></i><p>Step Free Acces</p>
+				<i class="fas fa-wifi"></i><p> Free Wifi</p>
+			</div>
+			<div class="club-center">
+				<img src="images/first.jpg">
+			</div>
+			<div class="club-right">
+				<img src="images/second.jpg">
+				<img src="images/third.jpg">
+			</div>
+		</div>
+		<div class="pricing-packages">
+			<h4>Expert and Professional</h4>
+			<h1>PRICING PACKAGES</h1>
+			<div class="pkgs">
+				<div class="left-pkgs">
+					<h2>BREAKFAST</h2>
+					<h5>Lamba Koftas </h5>
+					<h5 id="dollar">$20</h5>
+					<p>Traditional Lamb Koftas with house-made tzatziki auce</p>
+					<h6></h6>
+					<h5>Chicken Wings</h5>
+					<h5 id="dollar">$20</h5>
+					<p>Traditional Lamb Koftas with house-made tzatziki auce</p>
+					<h6></h6>
+					<h5>Lamba Koftas</h5>
+					<h5 id="dollar">$20</h5>
+					<p>Traditional Lamb Koftas with house-made tzatziki auce</p>
+					<h6></h6>
+					<h5>Chicken Wings</h5>
+					<h5 id="dollar">$20</h5>
+					<p>Traditional Lamb Koftas with house-made tzatziki auce</p>
+				</div>
+				<div class="center-pkgs">
+					<h2>FOOD SPECICAL</h2>
+					<h5>Malaysian Cuisine</h5>
+					<ul>
+						<li>Pieces of Passion</li>
+						<li>Fruit Stewed</li>
+					</ul>
+					<h6></h6>
+					<h5>Large Combo Deals</h5>
+					<ul>
+						<li>Two Large Pizza</li>
+						<li>Three Zinger Burger</li>
+						<li>Half Litre Drink</li>
+					</ul>
+					<h6></h6>
+					<h5>Add Garlic Prawns</h5>
+					<h5 id="house-made">House-Made Sauces:</h5>
+					<p>Gravy, ushroom sauce, pepper sauce</p>
+				</div>
+				<div class="left-pkgs">
+					<h2>DINNER</h2>
+					<h5>Lamba Koftas</h5>
+					<h5 id="dollar">$20</h5>
+					<p>Traditional Lamb Koftas with house-made tzatziki auce</p>
+					<h6></h6>
+					<h5>Chicken Wings</h5>
+					<h5 id="dollar">$20</h5>
+					<p>Traditional Lamb Koftas with house-made tzatziki auce</p>
+					<h6></h6>
+					<h5>Lamba Koftas</h5>
+					<h5 id="dollar">$20</h5>
+					<p>Traditional Lamb Koftas with house-made tzatziki auce</p>
+					<h6></h6>
+					<h5>Chicken Wings</h5>
+					<h5 id="dollar">$20</h5>
+					<p>Traditional Lamb Koftas with house-made tzatziki auce</p>
+				</div>
+			</div>
+		</div>
+		<div class="quote">
+			<h1>QUOTE OF THE DAY?</h1>
+			<h2>"Torn between a rooftop bar and a tranquil country setting? Take inspiration from our restaurant collections"</h2>
+		</div>
+		<div class="member">
+			<img src="images/one.jpg">
+		</div>
+		<div class="circle">
+			<img src="images/two.jpg">
+			<div class="circle-inside">
+				<h2>Have a Member?</h2>
+				<h5>Start and Book Your Table</h5>
+				<input type="text" name="" placeholder="Enter Your Email Address">
+				<button>SIGN IN</button>
+				<p>Not a member ? <a href=""> Join today </a></p>
+			</div>
+		</div>
+		<div class="highlights">
+			<h2>Highlights Branches</h2>
+			<h3>FOOD RESTAURANTS</h3>
+		</div>
+		<div class="highlights-branches">
+			<div class="highlights-left">
+				<img src="images/high.jpg">
+			</div>
+			<div class="ok">
+				<div class="highlights-center">
+					<img src="images/high1.jpg">
+				</div>
+				<div class="center-text">
+					<h3>1770 House</h3>
+					<p>6100 Westhiner Rd, </p>
+					<p>Houston United States</p>
+				</div>
+			</div>
+			<div class="ok">
+				<div class="highlights-center">
+					<img src="images/high2.jpg">
+				</div>
+				<div class="center-text">
+					<h3>1770 House</h3>
+					<p>6100 Westhiner Rd, </p>
+					<p>Houston United States</p>
+				</div>
+			</div>
+			<div class="ok ">
+				<div class="highlights-center right">
+					<img src="images/high4.jpg">
+				</div>
+				<div class="center-text">
+					<h3>1770 House</h3>
+					<p>6100 Westhiner Rd, </p>
+					<p>Houston United States</p>
+				</div>
+			</div>
+			<div class="ok ">
+				<div class="highlights-center right">
+					<img src="images/high3.jpg">
+				</div>
+				<div class="center-text">
+					<h3>1770 House</h3>
+					<p>6100 Westhiner Rd, </p>
+					<p>Houston United States</p>
+				</div>
+			</div>
+		</div>
+		<div class="chef">
+			<h3>Expert And Professional</h3>
+			<h1>TOP CHEF’S RECIPS</h1>
+			<div class="chef-box">
+				<div class="chef-left">
+					<div class="chef-left-1">
+						<img src="images/pic-one.jpg">
+					</div>
+					<div class="chef-left-2">
+						<p>24 Recipes</p>
+						<h1>Thomas Jackkie</h1>
+					</div>
+				</div>
+				<div class="chef-left">
+					<div class="chef-left-1">
+						<img src="images/pic-two.jpg">
+					</div>
+					<div class="chef-left-2">
+						<p>24 Recipes</p>
+						<h1>Rolkar James</h1>
+					</div>
+				</div>
+				<div class="chef-left">
+					<div class="chef-left-1">
+						<img src="images/pic-three.jpg">
+					</div>
+					<div class="chef-left-2">
+						<p>24 Recipes</p>
+						<h1>Willim Nomin</h1>
+					</div>
+				</div>
+			</div>
+			<div class="call-wait">
+				<h4>Waiting Your Call: (378) 400-6715</h4>
+				<div class="icons">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-google-plus-g"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-instagram"></i>
+				</div>
+			</div>
+		</div>
+		<div class="programs">
+			<h3>Best Article & News</h3>
+			<h1>RECIPS PROGRAMS</h1>
+			<div class="program-left">
+				<img src="images/1.jpg">
+				<div class="left-side">
+					<div class="left-inside">
+						<h2>20 July 2021</h2>
+						<h1>Fast-food chain, behind the scene</h1>
+						<p>Lorem ipsum dolor sit amet dieu ilisicing elit. Earatione opius dlil ilm or maion.</p>
+					</div>
+					<div class="left-outside">
+						<i class="far fa-comment"></i>
+						<h5>Comments</h5>
+						<i class="far fa-heart"></i>
+						<h4>Likes</h4>
+					</div>
+				</div>
+			</div>
+			<div class="program-left">
+				<img src="images/2.jpg">
+				<div class="left-side">
+					<div class="left-inside">
+						<h2>20 July 2021</h2>
+						<h1>Fast-food chain, behind the scene</h1>
+						<p>Lorem ipsum dolor sit amet dieu ilisicing elit. Earatione opius dlil ilm or maion.</p>
+					</div>
+					<div class="left-outside">
+						<i class="far fa-comment"></i>
+						<h5>Comments</h5>
+						<i class="far fa-heart"></i>
+						<h4>Likes</h4>
+					</div>
+				</div>
+			</div>
+			<div class="program-left">
+				<img src="images/3.jpg">
+				<div class="left-side">
+					<div class="left-inside">
+						<h2>20 July 2021</h2>
+						<h1>Fast-food chain, behind the scene</h1>
+						<p>Lorem ipsum dolor sit amet dieu ilisicing elit. Earatione opius dlil ilm or maion.</p>
+					</div>
+					<div class="left-outside">
+						<i class="far fa-comment"></i>
+						<h5>Comments</h5>
+						<i class="far fa-heart"></i>
+						<h4>Likes</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offer-new">
+			<h2>Special Offer For New Subscriber</h2>
+			<p>Subscribe to our newsletters now and stay up to date with new collections.</p>
+			<input type="text" name="" placeholder="Enter Your Email Address">
+		</div>
+		<div class="footer-bg">
+		<div class="fotter">
+			<div class="left-f">
+				<h2>About Us</h2>
+				<p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor cididunt Lorem ipsum dolor sit amet, nempor in cididunt.</p>
+				<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-google-plus-g"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-instagram"></i>
+			</div>
+			<div class="left-f left-c">
+				<h2>The Menu</h2>
+				<ul>
+					<a href=""><li>Special Items</li></a>
+					<a href=""><li>Fresh Breakfast</li></a>
+					<a href=""><li>Lunch Menu</li></a>
+					<a href=""><li>Dinner Items</li></a>
+					<a href=""><li>We Offerd Foods</li></a>
+					<a href=""><li>Dessert</li></a>
+					<a href=""><li>Fresh Food</li></a>
+				</ul>
+			</div>
+			<div class="left-f">
+				<h2>Get in Touch</h2>
+				<p>Monday-Friday <br><span> 08am-12pm</span></p>
+				<p>Saturday-Sunday <br><span> 11am-06pm</span></p>
+				<i class="fas fa-map-marker-alt"></i>
+				<h6>8121 Sierra Lane Tampa, Florida 3360</h6>
+			</div>
+			<div class="vertical-nav">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Sitemap</a></li>
+					<li><a href="">Policy</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+				<h2>Copyright <span> 2021 Mazaa</span>. Designed by Maaz Hussain.</h2>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
